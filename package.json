@@ -1,0 +1,44 @@
+{
+  "name": "kakaoweb",
+  "version": "1.1.0",
+  "description": "카카오톡 웹 버전 - NextJs Material UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+	"export": "next build && next export",
+    "start": "next start",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpro95/kakao-cpro95.git"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs",
+    "npx",
+    "material",
+    "material-design"
+  ],
+  "author": "cpro95@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpro95/kakao-cpro95/issues"
+  },
+  "homepage": "https://kakao-web.netlify.app",
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "classnames": "2.3.1",
+    "next": "^10.2.3",
+    "next-compose-plugins": "2.2.1",
+    "next-images": "1.7.0",
+    "node-sass": "^5.0.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
